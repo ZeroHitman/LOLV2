@@ -29,7 +29,72 @@ Designed for:
 
 ⚙️ INSTALLATION
 ---------------
+CHECK REQUIREMENTS
+==================
 
+LOLV2 requires Go (Golang) to be installed on the system.
+Please verify Go installation before using LOLV2.
+
+------------------------------------------------------------
+
+CHECK GO INSTALLATION
+---------------------
+
+Run the following command:
+
+go version
+
+If Go is installed, it will display the installed version.
+If not, follow the installation steps below based on your OS.
+
+------------------------------------------------------------
+
+INSTALL GO (GOLANG)
+===================
+
+Ubuntu / Debian
+---------------
+```bash
+sudo apt update
+sudo apt install -y golang
+```
+------------------------------------------------------------
+
+CentOS 7 / RHEL 7
+-----------------
+```bash
+sudo yum install -y golang
+```
+------------------------------------------------------------
+
+CentOS Stream / Rocky Linux / AlmaLinux
+---------------------------------------
+```bash
+sudo dnf install -y golang
+```
+------------------------------------------------------------
+
+Arch Linux
+----------
+```bash
+sudo pacman -Sy go
+```
+------------------------------------------------------------
+
+Verify Installation
+-------------------
+```bash
+go version
+```
+------------------------------------------------------------
+
+NOTE
+----
+
+Go is required only for building or extending LOLV2.
+Precompiled binaries can be executed without Go installed.
+
+------------------------------------------------------------
 📥 Download binary:
 
 ```bash
