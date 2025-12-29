@@ -7,8 +7,9 @@ LOLV2 — Recon & Detection Toolkit
 misconfigurations, sensitive endpoints, and exposed web services **at scale**.
 
 LOLV2 focuses on **visibility and discovery**, not exploitation.
-LOLV2 also uses an external supporting tool:
-- httpx by ProjectDiscovery (https://github.com/projectdiscovery/httpx)
+
+**LOLV2** also uses an external supporting tool:
+- **httpx** by ProjectDiscovery (https://github.com/projectdiscovery/httpx)
 
 Proper credit and respect go to the original developer and contributors of httpx.
 
