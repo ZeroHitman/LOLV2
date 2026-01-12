@@ -103,7 +103,7 @@ Precompiled binaries can be executed without Go installed.
 📥 Download binary:
 
 ```bash
-wget https://raw.githubusercontent.com/ZeroHitman/LOLV2/refs/heads/main/lolv2 -O lolv2
+wget https://raw.githubusercontent.com/ZeroHitman/ZeroLOLV2/refs/heads/main/lolv2 -O lolv2
 chmod +x lolv2
 ```
 
